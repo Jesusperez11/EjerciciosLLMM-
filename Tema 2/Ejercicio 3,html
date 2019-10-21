@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>ejercicio 3</title>
+  </head>
+    <h1>Curriculum Vitae</h1>
+    <h2>
+      <strong>Datos personales</strong>
+      Nombre completo:  Juan Pérez
+      Fecha de nacimiento: 12 de diciembre de 1982
+      Lugar de nacimiento:  Huelva (España)
+
+      <strong>Formación académica</strong>
+      2000-2004: Universidad de Huelva
+      1994-2000: IES La Marisma
+
+      <strong>Experiencia laboral</strong>
+      2004-2019: Diseño web
+      2000-2004: Colaboración con diversas ONGs
+    </h2>
+  </body>
+</html>
