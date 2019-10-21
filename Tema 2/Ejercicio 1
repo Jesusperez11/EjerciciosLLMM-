@@ -1,0 +1,13 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>ejercicio 1</title>
+  </head>
+    <h1>HTML</H1>
+    
+    <h2>Introduccion</h2>
+    <p>HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet.
+    Se trata de la siglas que corresponden a HyperText Markup Language, es decir, <strong>Lenguaje de Marcas de Hipertexto</strong>
+    y fue creado por <em>Tim Berners-Lee</em></p>
+    
+    <cite>si necesita mas informacion visite wikipedia</cite>
