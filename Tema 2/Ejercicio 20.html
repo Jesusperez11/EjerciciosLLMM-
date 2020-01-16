@@ -9,18 +9,18 @@
 
 <form action="/action_page.php" method="post">
   Nombre:<br>
-  <input type="text" name="nombre"><br>
+  <input type="text" name="nombre" maxlength="30"><br>
   Apellidos:<br>
-  <input type="text" name="Apellidos"><br>
+  <input type="text" name="Apellidos" maxlength="80"><br>
   Contraseña:<br>
-  <input type="text" name="Contraseña"><br>
+  <input type="text" name="Contraseña" maxlength="10"><br>
   DNI:<br>
   <input type="text" name="DNI"><br>
   Sexo:<br>
   <input type="radio" name="gender">Hombre<br>
   <input type="radio" name="gender">Mujer<br><br>
   Incliur mi foto <input type="file" name="myfile"><br><br>
-  <input type="checkbox" name="Novedades">Suscribirme al boletin de novedades<br>
+  <input type="checkbox" name="Novedades" checked>Suscribirme al boletin de novedades<br>
   <br>
   <input type="submit" value="Guardar cambios">
   <input type="reset" value="Borrar los datos introducidos">
