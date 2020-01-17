@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicio 21</title>
+</head>
+<body>
+<h2>Rellena tu CV</h2>
 
+<form action="/action_page.php">
+<fieldset>
+<legend>Datos personales</legend>
+Provincias:<br>
+  <select name="Provincias">
+    <option value="Selecciona">Selecciona</option>
+    <option value="Barcelona">Barcelona</option>
+    <option value="Alicante">Alicante</option>
+    <option value="Sevilla">Sevilla</option>
+    <option value="Granada">Granada</option>
+  </select><br><br>
+Fecha de nacimiento<br>
+	<input type="text" name="dia" maxlength="2">
+de
+	<select name="Mes">
+    <option value="Enero">Enero</option>
+    <option value="Febrero">Febrero</option>
+    <option value="Marzo">Marzo</option>
+    <option value="Abril">Abril</option>
+    <option value="Mayo">Mayo</option>
+    <option value="Junio">Junio</option>
+    <option value="Julio">Julio</option>
+    <option value="Agosto">Agosto</option>
+    <option value="Septiembre">Septiembre</option>
+    <option value="Octubre">Octubre</option>
+    <option value="Noviembre">Noviembre</option>
+    <option value="Diciembre">Diciembre</option>
+  </select>
+de
+  <input type="text" name="año" maxlength="4"><br><br>
+Tema de interes<br>
+  <textarea name="message" rows="5" cols="35">
+  Administracion de bases de datos
+  Analisis y programacion
+  Arquitectura
+  Calidad
+  ERP, CRM, Business intelligence
+  Analisis dual
+  Analisis simple
+  Calidad suprema</textarea>
+  <br><br>
+</fieldset>
+</form>
+</body>
+</html>
