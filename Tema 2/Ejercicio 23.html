@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ejercicio 23</title>
+<title>My title</title>
 </head>
 <body>
 
-<h1 id=h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<p>Pulsa el botón y verás como cambia el título de la página.</p>
+
+<button onclick="myFunction()">Púlsame</button>
+
+<p id="demo"></p>
 
 <script>
-var title = document.getElementById("h1");
-title.innerHTML= "Hello";
+function myFunction() {
+  document.title = "Nuevo título";
+}
 </script>
+
 </body>
 </html>
