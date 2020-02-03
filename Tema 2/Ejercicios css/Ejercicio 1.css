@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicio 1.css</title>
+<style>
+.a{float: left; width: 30%}
+.b{float: left; width: 70%}
+</style>
+</head>
+<body>
+
+<h1>CURRICULUM VITAE</h1>
+<br/>
+<p>PERSONAL DATA<p>
+<div>
+Name:Azamat<br/>
+Surname:Azamat<br/>
+Date of birth:30.07.74<br/>
+Place of birth:Bishkek, Kyrgysztan
+</div>
+<br/>
+<p>EDUCATION<p>
+<div class="a">
+2005-2009<br/><br/><br/>
+2001-2005<br/><br/>
+1995-2001
+</div>
+<div class="b">
+Computer Enginnering in the Technical University of Kyrgyzstan in Bishkek<br><br/>
+High School "Manas" in Osh<br/><br/>
+Primary school
+</div>
+<br/>
+<p>PROFESSIONAL EXPERIENCE<p>
+<div class="a">
+2007-2009<br/><br/>
+2005-2007
+</div>
+<div class="b">
+Computer teacher in High School in Bishkek<br/><br/>
+Secretary of Department of Sofrware in Technical University of Kyrgysztan in Bishkek
+</div>
+</body>
+</html>
