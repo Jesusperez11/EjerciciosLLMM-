@@ -3,27 +3,30 @@
 <head>
 <title>Ejercicio 1.css</title>
 <style>
-.a{float: left; width: 30%}
-.b{float: left; width: 70%}
+.a{float: left; width: 30%;}
+.b{float: left; width: 70%;}
+.c{color: #8B0000;}
+.d{color: #0000FF; background: #D3D3D3; text-align: center;}
+.e{color: #000000}
 </style>
 </head>
 <body>
 
-<h1>CURRICULUM VITAE</h1>
+<h1 class="d">CURRICULUM VITAE</h1>
 <br/>
-<p>PERSONAL DATA<p>
-<div>
+<p class="c">PERSONAL DATA<p>
+<div class="e">
 Name:Azamat<br/>
 Surname:Azamat<br/>
 Date of birth:30.07.74<br/>
 Place of birth:Bishkek, Kyrgysztan
 </div>
 <br/>
-<p>EDUCATION<p>
+<p class="c">EDUCATION<p>
 <div class="a">
-2005-2009<br/><br/><br/>
-2001-2005<br/><br/>
-1995-2001
+<b>2005-2009</b><br/><br/><br/>
+<b>2001-2005</b><br/><br/>
+<b>1995-2001</b>
 </div>
 <div class="b">
 Computer Enginnering in the Technical University of Kyrgyzstan in Bishkek<br><br/>
@@ -31,10 +34,10 @@ High School "Manas" in Osh<br/><br/>
 Primary school
 </div>
 <br/>
-<p>PROFESSIONAL EXPERIENCE<p>
+<p class="c">PROFESSIONAL EXPERIENCE<p>
 <div class="a">
-2007-2009<br/><br/>
-2005-2007
+<b>2007-2009</b><br/><br/>
+<b>2005-2007</b>
 </div>
 <div class="b">
 Computer teacher in High School in Bishkek<br/><br/>
