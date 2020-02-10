@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicio 3css</title>
+<style>
+.a1{text-align: center;}
+.vl {
+	border-left: 6px solid green;
+	height: 500px;}
+</style>
+</head>
+<body>
+<h1 class=a1>Curriculum Vitae</h1>
+<br/>
+<p class=a1>Welcome to my CV!</p>
+<div class="vl"></div>
+</body>
+</html>
