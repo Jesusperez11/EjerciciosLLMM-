@@ -2,19 +2,20 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse;}
 table, td, th {
-  border: 1px solid black;
-}
-
-caption {
-  caption-side: bottom;
-}
+	border: 1px solid;}
+th {
+  background-color: #4CAF50;
+  color: white;}
 </style>
 </head>
 <body>
-
 <table>
-<caption>Table 1.1 Customers</caption>
+	<tr>
+    	<th colspan="3">Table 1.1 Customers</th>
+    </tr>
   <tr>
     <th>Company</th>
     <th>Contact</th>
@@ -46,8 +47,5 @@ caption {
     <td>UK</td>
   </tr>
 </table>
-
-<p><b>Note:</b> IE8 supports the caption-side property if a !DOCTYPE is specified.</p>
-
 </body>
 </html>
