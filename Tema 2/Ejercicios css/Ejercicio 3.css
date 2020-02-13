@@ -11,7 +11,31 @@
 <div class="a1"><b>Curriculum Vitae</b><br/><br/><br/><br/>
 Welcome to my CV!</div>
 <div class="a2">
-<a href="">Personal data</a><br/><br/>
+<a href="link">Personal data</a><br/><br/>
+Education<br/><br/>
+Professional experience
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicio 3css</title>
+<style>
+.a1{text-align:center; float:left; border: 1px solid; width: 60%;}
+.a2{border: 1px solid; float: right; width:39.42%;}
+</style>
+</head>
+<body>
+<div class="a1"><b>Curriculum Vitae<br/><br/>Personal data</b><br/><br/><br/>
+Nmae:Azamat<br>
+Surname:Azamat<br/>
+Date of birth:30.07.74<br/>
+Place of birth:Bishkek, Kyrgysztan
+</div>
+<div class="a2">
+Personal data<br/><br/>
 Education<br/><br/>
 Professional experience
 </div>
