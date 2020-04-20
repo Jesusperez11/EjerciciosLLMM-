@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partes[
+<!ELEMENT partes (parte*)>
+<!ELEMENT parte (nombre,numero_de_catalogo, hilo?, tipo?, codigo_de_precio, cantidad)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT numero_de_catalogo (#PCDATA)>
+  <!ELEMENT hilo (#PCDATA)>
+  <!ELEMENT tipo (#PCDATA)>
+  <!ELEMENT codigo_de_precio (#PCDATA)>
+  <!ELEMENT cantidad (#PCDATA)>
+  ]>
+  <partes>
+  <parte>
+   <nombre> Widget </nombre>
+   <número_de_catálogo> 11037 </número_de_catálogo>
+   <codigo_de_precio> d </codigo_de_precio>
+   <cantidad> 4 </cantidad>
+  </parte>
+  <parte>
+   <nombre> Perno </nombre>
+   <número_de_catálogo> 11497 </número_de_catálogo>
+   <hilo> w </hilo>
+   <codigo_de_precio> 1 </codigo_de_precio>
+   <cantidad> 100 </cantidad>
+  </parte>
+  <parte>
+   <nombre> Tornillo </nombre>
+   <número_de_catálogo> 10020 </número_de_catálogo>
+   <tipo> avellanado </tipo>
+   <codigo_de_precio> c </codigo_de_precio>
+   <cantidad> 7 </cantidad>
+  </parte>
+</parts>

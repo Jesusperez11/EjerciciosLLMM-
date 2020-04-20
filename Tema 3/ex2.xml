@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda[
+<!ELEMENT agenda (contacto*)>
+<!ELEMENT contacto (nombre, apellido, domicilio, telefono*, email*, empresa)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT domicilio (calle, numero, codigo_postal, pais)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT codigo_postal (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT telefeno (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT empresa (nombre_empresa, web)>
+    <!ELEMENT nombre_empresa (#PCDATA)>
+    <!ELEMENT web (nombre_sitio, URL)>
+      <!ELEMENT nombre_sitio (#PCDATA)>
+      <!ELEMENT URL (#PCDATA)>
+]>
+<agenda>
+<contacto>
+  <nombre>Pedro</nombre>
+  <apellido>Ramirez</apellido>
+  <domicilio>
+    <calle>Rosa</calle>
+    <numero>77</numero>
+    <codigo_postal>25012</codigo_postal>
+    <pais>España</pais>
+  </domicilio>
+  <telefono>123456789</telefono>
+  <email>pedro@gmail.com</email>
+  <empresa>
+    <nombre_empresa>Umbral</nombre_empresa>
+    <web>
+      <nombre_sitio>Umbral epresa</nombre_sitio>
+      <URL>url</URL>
+    </web>
+  </empresa>
+</contacto>
+</agenda>

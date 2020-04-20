@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ELEMENTO PERIÓDICO[
+<! ELEMENTO PERIÓDICO (ARTÍCULO+)>
+<! ELEMENTO ARTÍCULO (TÍTULO, BYLINE, CUERPO, NOTAS)>
+<! ELEMENTO TÍTULO (#PCDATA)>
+<! ELEMENTO BYLINE (#PCDATA)>
+<! ELEMENTO CUERPO (#PCDATA)>
+<! ELEMENTO NOTAS (#PCDATA)>
+
+<! ATTLIST ARTÍCULO AUTOR CDATA #REQUIRED>
+<! ATTLIST ARTÍCULO FECHA CDATA # IMPLIED>
+
+<! ENTITY NEWSPAPER "Vervet Logic Times">
+<! ENTITY PUBLISHER "Vervet Logic Press">
+<! ENTITY COPYRIGHT "Copyright 1998 Vervet Logic Press">
+]>
+<elemento_periodicos>
+<articulo autor=juan fenia fecha=2001>
+  <titulo>rias</titulo>
+  <firma>rojo</firma>
+  <cuerpo>excelente</cuerpo>
+  <notas>ventana</notas>
+</articulo>
+<articulo autor=pepe sevilla>
+  <titulo>la rioja</titulo>
+  <firma>rojo</firma>
+  <cuerpo>vino irlandes</cuerpo>
+  <notas>10 años</notas>
+</articulo>
+</elemento_periodicos>
