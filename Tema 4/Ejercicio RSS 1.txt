@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>La Fregona Veloz</title>
+  <link>https://www.limpiezaslafregonaveloz.com/</link>
+  <description>Servicio de limpieza general para huelva y provincia. Limpieza y mantenimiento de comunidades, locales comerciales, pficinas, talleres, garajes y mucho mas...</description>
+  <language>en-us</language>
+  <image>
+    <url>https://www.limpiezaslafregonaveloz.com/images/limpieza-comunidades.jpg</url>
+    <title>Limpieza</title>
+  </image>
+<item>
+    <title>Contactar con nosotros</title>
+    <link>https://www.limpiezaslafregonaveloz.com/atencion-personalizada-limpieza-huelva/contacte-con-nosotros</link>
+    <description>Los clientes de Limpiezas La Fregona Veloz, gozan de un trato personalizado y adaptado perfectamente a sus circunstancia particulares.</description>
+  </item>
+  <item>
+    <title>Personal</title>
+    <link>https://www.limpiezaslafregonaveloz.com/personal-limpieza-huelva/formacion-personal-de-limpieza</link>
+    <description>Formamos a nuestro trabajadores de manera continuada a través minuciosos cursos de formación,</description>
+  </item>
+</channel>
