@@ -1,0 +1,14 @@
+1./universidad//nombre
+2./universidad/carreras/carrera/nombre
+3./universidad/alumnos/alumno/nombre
+4./universidad/asignaturas/asignatura/nombre
+5.//@id|//@titulacion|//@codigo
+6./universidad/carreras/carrera/@id
+7./universidad/alumnos/alumno[1]
+8./universidad/alumnos/alumno[last()]
+9./universidad/alumnos/alumno[1]|/universidad/alumnos/alumno[2]
+10./universidad/asignaturas/asignatura[@id=a01]
+11./universidad/asignaturas/asignatura[@titulacion=c01]
+12./universidad/carreras/carrera/credito[.>200]
+13./universidad/asignaturas/asignatura/credito_teorico[.>4]
+14.//carrera/nombre|//carrera/centro
