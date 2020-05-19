@@ -12,3 +12,4 @@
 12./universidad/carreras/carrera/credito[.>200]
 13./universidad/asignaturas/asignatura/credito_teorico[.>4]
 14.//carrera/nombre|//carrera/centro
+15./universidad/carreras/node()
